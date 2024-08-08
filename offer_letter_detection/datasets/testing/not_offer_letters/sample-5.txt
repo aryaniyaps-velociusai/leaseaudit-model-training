@@ -1,10 +1,10 @@
-Company Logo]
+Smithy Industries
 
 Training Schedule
 Date: August 8, 2024
 
 Training Topic: Time Management Workshop
-Facilitator: [Facilitator Name]
+Facilitator: John Smith
 Date: August 22, 2024
 Time: 9:00 AM - 12:00 PM
 Location: Conference Room B
@@ -20,6 +20,6 @@ Please RSVP by August 15, 2024.
 Looking forward to your participation!
 
 Best,
-[Your Name]
-[Your Job Title]
+Jane Doe
+Training Coordinator
 

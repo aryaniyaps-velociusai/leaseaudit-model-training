@@ -2,3 +2,4 @@
 
 offer_letter_detection/results
 offer_letter_detection/finetuned_distilled_bert
+offer_letter_detection/bart

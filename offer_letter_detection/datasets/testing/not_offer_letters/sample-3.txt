@@ -1,10 +1,8 @@
-[Company Logo]
-
 MEMORANDUM
 
 Date: August 8, 2024
 To: All Employees
-From: [Your Name]
+From: Sarah Thompson
 Subject: Upcoming Team Meeting
 
 Dear Team,
@@ -21,6 +19,5 @@ Please make it a priority to attend, as your input is valuable to our success.
 Thank you!
 
 Best,
-[Your Name]
-[Your Job Title]
-
+Sarah Thompson
+Team Lead

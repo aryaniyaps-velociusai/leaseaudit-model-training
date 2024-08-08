@@ -1,5 +1,3 @@
-[Company Letterhead]
-
 Date: August 8, 2024
 
 Subject: Update to Remote Work Policy
@@ -18,6 +16,5 @@ Please review the updated policy document attached and reach out with any questi
 Thank you for your cooperation.
 
 Best regards,
-[Your Name]
-[Your Job Title]
-
+Mark Johnson
+HR Manager
