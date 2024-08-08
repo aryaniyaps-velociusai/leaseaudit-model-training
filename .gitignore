@@ -1,0 +1,4 @@
+.venv
+
+model_training/results
+model_training/finetuned_distilled_bert

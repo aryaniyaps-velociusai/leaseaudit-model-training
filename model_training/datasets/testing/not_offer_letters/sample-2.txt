@@ -1,0 +1,27 @@
+[Company Logo]
+
+Employee Performance Review
+Date: August 8, 2024
+
+Employee Name: [Employee Name]
+Position: [Employee Position]
+Review Period: [Start Date] to [End Date]
+
+Reviewer: [Reviewer Name]
+Position: [Reviewer Position]
+
+Performance Summary:
+[Provide an overview of the employee's performance during the review period, highlighting strengths, areas for improvement, and any significant accomplishments.]
+
+Goals for Next Period:
+
+[Goal 1]
+[Goal 2]
+[Goal 3]
+Overall Rating: [Rating]
+
+Employee Comments:
+[Space for employee to add comments]
+
+Reviewer Signature: ____________________
+Employee Signature: ____________________
