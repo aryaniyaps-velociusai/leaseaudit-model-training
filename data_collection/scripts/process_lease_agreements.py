@@ -65,8 +65,8 @@ async def store_extracted_fields(
         logger.error(f"An error occurred: {e}")
 
 
-async def process_image(image, conn, image_index: int):
-    logger.debug(f"Processing image {image_index}")
+async def process_image(image, conn, image_index: int, num_images: int):
+    logger.debug(f"Processing image {image_index + 1}/{num_images}")
     extracted_text = await perform_ocr_from_image(image=image, client=get_ocr_client())
     await store_extracted_fields(
         extracted_text=extracted_text,
@@ -81,7 +81,9 @@ async def process_lease_agreements(folder_path: Path, conn: sqlite3.Connection) 
             logger.debug(f"Processing file {file_index + 1}/{len(files)}: {file}")
             converted_images = convert_from_path(folder_path / file, last_page=10)
             tasks = [
-                process_image(image, conn, image_index=index)
+                process_image(
+                    image, conn, image_index=index, num_images=len(converted_images)
+                )
                 for index, image in enumerate(converted_images)
             ]
             await asyncio.gather(*tasks)
