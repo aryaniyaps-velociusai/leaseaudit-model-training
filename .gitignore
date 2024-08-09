@@ -2,3 +2,5 @@
 
 offer_letter_detection/results
 offer_letter_detection/saved_models/*
+
+lease_agreement_extraction/results
