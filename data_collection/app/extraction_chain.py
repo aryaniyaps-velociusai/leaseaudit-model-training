@@ -12,11 +12,10 @@ async def run_extraction_chain(chat_model: BaseChatModel, text: str) -> dict[str
         (
             "system",
             """
-                You are an intelligent analyst that can extract relevant values from a lease agreement.
                 You will be given a block of text that has been extracted from a lease agreement using OCR.
                 The OCR text may contain some obvious errors (see examples below). You should fix these errors and
                 extract the following fields in the format given below:\n
-                You should ONLY respond in the format as described below.\n
+
                 ## RESPONSE FORMAT:\n
                 {format_instructions}
 

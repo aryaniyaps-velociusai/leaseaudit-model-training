@@ -62,7 +62,7 @@ async def store_extracted_fields(
 
         logger.debug("Data successfully stored in the SQLite3 database")
 
-    except sqlite3.Error as e:
+    except Exception as e:
         logger.error(f"An error occurred: {e}")
 
 
