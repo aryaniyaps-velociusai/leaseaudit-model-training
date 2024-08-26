@@ -11,6 +11,7 @@ from app.ocr_client import get_ocr_client, perform_ocr_from_image
 import typer
 import sqlite3
 from dotenv import load_dotenv
+import json
 
 from app.chat_model import get_chat_model
 from app.core.logger import configure_logging, logger
@@ -53,7 +54,7 @@ async def store_extracted_fields(
             INSERT INTO extracted_data (extracted_text, extracted_fields)
             VALUES (?, ?)
         """,
-            (extracted_text, str(extracted_fields)),
+            (extracted_text, json.dumps(extracted_fields)),
         )
 
         # Commit the transaction
